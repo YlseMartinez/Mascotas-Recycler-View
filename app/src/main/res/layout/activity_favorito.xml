@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_favorito"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ylse_matinez.puppy2.Activity_favorito">
+
+
+    <include android:id="@+id/actionBarFavorito"
+        layout="@layout/actionbar_favorito">
+    </include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvMascotasfav"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/actionBarFavorito"
+        />
+
+</RelativeLayout>

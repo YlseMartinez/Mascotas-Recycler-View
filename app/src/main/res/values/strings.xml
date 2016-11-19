@@ -1,0 +1,7 @@
+
+<resources>
+    <string name="app_name">Puppy</string>
+    <string name="nombre">nombre</string>
+    <string name="titulo_actionbar">Petagram</string>
+    <string name="cant_like">5</string>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotafav"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/imgFotofav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mascota1"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imbHuesoSelecfav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hueso"
+                />
+            <TextView
+                android:id="@+id/tvNombrefav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvlikefav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cant_like"
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginLeft="230dp"/>
+
+            <ImageView
+                android:id="@+id/imgHuesoPuntosfav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/huesoamarillo"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
